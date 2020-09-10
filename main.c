@@ -9,7 +9,7 @@
 
 
 int main(void) {
-  char * grade = readline("Enter you CMPSC 131 grade: ");
+  char * grade = readline("Enter your CMPSC 131 grade: ");
   double gradeInt = atof(grade);
 
   if (gradeInt>= 93) {
