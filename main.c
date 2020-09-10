@@ -13,31 +13,31 @@ int main(void) {
   double gradeInt = atof(grade);
 
   if (gradeInt>= 93) {
-    printf("Your letter grade for CMPSC 131 is A.");
+    printf("Your letter grade for CMPSC 131 is A.\n");
   }
   else if (gradeInt>= 90) {
-    printf("Your letter grade for CMPSC 131 is A- ");
+    printf("Your letter grade for CMPSC 131 is A-.\n");
   }
   else if (gradeInt>= 87) {
-    printf("Your letter grade for CMPSC 131 is B+ ");
+    printf("Your letter grade for CMPSC 131 is B+.\n");
   }
   else if (gradeInt>= 83) {
-    printf("Your letter grade for CMPSC 131 is B ");
+    printf("Your letter grade for CMPSC 131 is B.\n");
   }
   else if (gradeInt>= 80) {
-    printf("Your letter grade for CMPSC 131 is B- ");
+    printf("Your letter grade for CMPSC 131 is B-.\n");
   }
   else if (gradeInt>= 77) {
-    printf("Your letter grade for CMPSC 131 is C+ ");
+    printf("Your letter grade for CMPSC 131 is C+.\n");
   }
   else if (gradeInt>= 70) {
-    printf("Your letter grade for CMPSC 131 is C ");
+    printf("Your letter grade for CMPSC 131 is C.\n");
   }
   else if (gradeInt>= 60) {
-    printf("Your letter grade for CMPSC 131 is D ");
+    printf("Your letter grade for CMPSC 131 is D.\n");
   }
   else if (gradeInt< 60) {
-    printf("Your letter grade for CMPSC 131 is F ");
+    printf("Your letter grade for CMPSC 131 is F.\n");
   }
   return 0;
   }
