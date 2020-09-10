@@ -5,6 +5,7 @@
 // Breakout: 8
 #include <stdio.h>
 #include <readline/readline.h>
+#include <stdlib.h>
 
 
 int main(void) {
